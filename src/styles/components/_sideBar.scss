@@ -1,0 +1,23 @@
+header{
+    padding: 1rem;
+    min-height: 100vh;
+    min-width: 200px;
+    // display: grid;
+    
+    position: fixed;
+    // box-shadow: 0.2px 1px black;
+    h1{
+        // text-align: center;
+        padding: 2rem 1rem; 
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    ul li{
+        display: flex;
+        align-items: center;
+        padding:15px 15px 15px 0px ;
+        width: 100%;
+
+    }
+}

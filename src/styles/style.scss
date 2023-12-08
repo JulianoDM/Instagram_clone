@@ -1,0 +1,21 @@
+// Abstract
+@import "./abstract/base";
+
+// Components
+@import "./components/app";
+@import "./components/_status";
+@import "./components/photos";
+@import "./components/bio";
+@import "./components/sideBar";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,400;0,900;1,400;1,900&display=swap');
+
+html{
+    font-family: "roboto", sans-serif;
+}
+
+ul, li, a{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
