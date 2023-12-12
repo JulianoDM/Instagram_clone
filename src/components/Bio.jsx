@@ -11,9 +11,9 @@ export const Bio = () =>{
 
             <div className="containerInfo-bio">
                 <div className="follow-bio" >
-                    <h1 className="mainName-bio">Julianodiasm</h1>
-                    <input type="button" value="Seguindo" />
-                    <input type="button" value="Enviar Mensagem" />
+                    <h1 className="mainName-bio">Juliano_diasm</h1>
+                    <input type="button" value="Editar Pefil" />
+                    <input type="button" value="Itens Arquivados" />
                     <span>...</span>
                 </div>
 
