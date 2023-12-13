@@ -6,13 +6,17 @@
     
     gap: 1rem;
 
+    .line-photos{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.093);
+    }
+
     .container-photos{
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
         gap: 10px;
 
         .card-photos{
-            width: 299px;
+            min-width: 299px;
             height: 299px;
     
             img{

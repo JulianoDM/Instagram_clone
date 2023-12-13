@@ -17,8 +17,7 @@ const style = {
 };
 
 export default function ModalPhoto(props) {
-  console.log(props);
-  //   console.log('aaaaaaaaaaa');
+  
   const [open, setOpen] = React.useState(false);
   React.useEffect(() =>{
     setOpen(props.open);

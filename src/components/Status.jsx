@@ -1,13 +1,14 @@
 import React from "react";
-import { images } from "../img/images";
+import { useSelector } from "react-redux";
 
 export const Status = () => {
+  const photos = useSelector( state => state.photo)
   return (
     <div id="status">
-      {images.map((photos) => {
+      {photos.map((photos) => {
         return (
-          <figure key={photos.id} className="status-circle">
-            <img src={photos.url} alt="status img" className="status-img" />
+          <figure key={photos.id} className="circle-status">
+            <img src={photos.url} alt="status img" className="img-status" />
           </figure>
         );
       })}

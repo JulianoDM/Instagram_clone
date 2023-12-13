@@ -1,23 +1,39 @@
-header{
+header {
     padding: 1rem;
     min-height: 100vh;
     min-width: 200px;
-    // display: grid;
-    
     position: fixed;
-    // box-shadow: 0.2px 1px black;
-    h1{
-        // text-align: center;
-        padding: 2rem 1rem; 
-        font-size: 1rem;
-        font-weight: 400;
+  
+    h1 {
+      padding: 2rem 1rem;
+      font-size: 1rem;
+      font-weight: 400;
     }
+  
+    ul li {
+      display: flex;
+      align-items: center;
+      padding: 5px 15px 5px 0px;
+      margin-bottom: 10px;
+      width: 100%;
+  
+      &:hover {
+        background-color: rgb(245, 244, 244);
+        border-radius: 5px;
+      }
+  
+      &:hover .sidebar-icon svg {
+        // transition: 0.2s;
+        font-size: 1.9rem;
+      }
 
-    ul li{
-        display: flex;
-        align-items: center;
-        padding:15px 15px 15px 0px ;
-        width: 100%;
-
+      .sidebar-icon{
+        padding-right: 1rem;
+        svg{
+            font-size: 1.8rem;
+        }
+      }
+  
     }
-}
+  }
+  
