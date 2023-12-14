@@ -1,12 +1,6 @@
 import React from "react";
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    createBrowserRouter,
-    Link
-  } from "react-router-dom";
+import {createBrowserRouter} from "react-router-dom";
 
 import { App } from "../views/App";
 

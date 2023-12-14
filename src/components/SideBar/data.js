@@ -1,5 +1,4 @@
 import React from "react";
-// import { images } from "../../img/images";
 
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import SearchIcon from "@mui/icons-material/Search";
@@ -8,6 +7,11 @@ import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
 import MessageOutlinedIcon from "@mui/icons-material/MessageOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import AddBoxOutlinedIcon from "@mui/icons-material/AddBoxOutlined";
+
+import imageA from "../../img/imagemA.png";
+
+
+
 
 export const navigation = [
   {
@@ -48,6 +52,6 @@ export const navigation = [
   {
     id: 7,
     name: "Perfil",
-    // img: images[0].url,
+    // img: imageA,
   },
 ];

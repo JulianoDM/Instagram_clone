@@ -8,7 +8,7 @@ export const Bio = () => {
   return (
     <div className="bio">
       <figure className="profile-bio">
-        <img src={photos[4].url} alt="perfil"/>
+        <img src={photos[5].url} alt="perfil"/>
       </figure>
 
       <div className="containerInfo-bio">
